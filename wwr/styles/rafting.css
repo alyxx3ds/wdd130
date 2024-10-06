@@ -1,0 +1,73 @@
+/* rafting.css */
+:root {
+    --light-yellow: #F2F3AE;
+    --mustard-yellow: #EDD382;
+    --coral-orange: #FC9E4F;
+    --bright-orange: #FF521B;
+    --dark-blue: #020122;
+}
+
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: 'Poppins', sans-serif;
+    color: var(--dark-blue);
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header img {
+    width: 100px;
+}
+
+nav a {
+    text-decoration: none;
+    color: var(--dark-blue);
+    margin: 0 15px;
+}
+
+/* Hero Section */
+.hero h1 {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 2.5rem;
+    color: var(--bright-orange);
+}
+
+/* Section Headings */
+h2 {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 2rem;
+    color: var(--coral-orange);
+}
+
+/* Footer */
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+footer nav a {
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+footer nav img {
+    width: 30px;
+    height: 30px;
+}
