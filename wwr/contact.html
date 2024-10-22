@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Contact White Water Rafting for any inquiries or reservations. Reach out to our team for assistance, reservations, and more information on rafting adventures.">
+  <meta name="author" content="Alessandro Cipriano">
+
+  <title>Contact White Water Rafting - Inquiries and Reservations</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@100..1000&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/rafting.css">
+</head>
+<body>
+<header>
+  <div class="logo">
+    <img src="images/circlelogo.jpeg" alt="White Water Rafting Logo">
+  </div>
+  <nav>
+    <ul class="navigation">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="trips.html">Trips</a></li>
+      <li><a href="contact.html" class="active">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+  <section class="contact-info">
+    <h1>Contact Us</h1>
+    <p>If you have any questions, inquiries, or would like to make a reservation, feel free to contact us. We're here to help!</p>
+
+    <div class="company-info">
+      <p><strong>Address:</strong> 123 River Rapids Rd, Adventure Town, CA 90210</p>
+      <p><strong>Phone:</strong> +1 (555) 123-4567</p>
+      <p><strong>Email:</strong> info@raftingadventures.com</p>
+
+      <!-- Google Map Embed -->
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.265536676543!2d-122.41941548468112!3d37.774929679758024!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085809c76bd7cfb%3A0xf4bfb5cf0f0d3c9b!2sSan%20Francisco%2C%20CA%2C%20USA!5e0!3m2!1sen!2s!4v1601237519257!5m2!1sen!2s" width="600" height="450" allowfullscreen="" loading="lazy"></iframe>
+    </div>
+
+    <!-- Employee Profiles -->
+    <section class="employee-profiles">
+      <h2>Meet Our Team</h2>
+      <div class="employee-grid">
+        <figure>
+          <img src="images/employee1.jpg" alt="John Doe - Guide">
+          <figcaption>John Doe, Lead Guide</figcaption>
+        </figure>
+        <figure>
+          <img src="images/employee2.jpg" alt="Jane Smith - Manager">
+          <figcaption>Jane Smith, Operations Manager</figcaption>
+        </figure>
+        <figure>
+          <img src="images/employee3.jpg" alt="Bob Johnson - Support">
+          <figcaption>Bob Johnson, Customer Support</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- Contact Form -->
+    <section class="contact-form">
+      <h2>Send Us a Message</h2>
+      <form action="submit_contact.php" method="POST">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="purpose">Purpose:</label>
+        <div class="radio-group">
+          <label><input type="radio" name="purpose" value="general-inquiry" required> General Inquiry</label>
+          <label><input type="radio" name="purpose" value="reservation-question"> Reservation Question</label>
+          <label><input type="radio" name="purpose" value="website-suggestion"> Website Suggestion</label>
+        </div>
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+
+        <label><input type="checkbox" name="subscribe"> Please subscribe me to the monthly newsletter</label>
+
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+  </section>
+</main>
+
+<footer>
+  <p>&copy; 2024 White Water Rafting | Designed by Alessandro Cipriano</p>
+  <nav>
+    <a href="http://facebook.com" target="_blank">
+      <img src="images/5365678_fb_facebook_facebook logo_icon.svg" alt="Facebook">
+    </a>
+    <a href="http://instagram.com" target="_blank">
+      <img src="images/6929237_instagram_icon.svg" alt="Instagram">
+    </a>
+    <a href="http://twitter.com" target="_blank">
+      <img src="images/5296516_tweet_twitter_twitter logo_icon.svg" alt="Twitter">
+    </a>
+  </nav>
+</footer>
+</body>
+</html>

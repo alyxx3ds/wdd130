@@ -1,3 +1,104 @@
+.contact-info {
+    padding: 2rem;
+    background-color: #F2F3AE; /* Light Yellow */
+    color: #020122; /* Dark Blue */
+}
+
+.company-info {
+    margin-bottom: 2rem;
+}
+
+.contact-info iframe {
+    width: 100%;
+    height: 300px;
+    border: none; /* Removed inline CSS for the border */
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+/* Employee Profiles */
+.employee-profiles {
+    padding: 2rem 0;
+    background-color: #EDD382; /* Mustard Yellow */
+}
+
+.employee-grid {
+    display: flex;
+    justify-content: space-around;
+    gap: 1rem;
+    flex-wrap: wrap; /* Added to handle responsiveness */
+}
+
+.employee-grid figure {
+    text-align: center;
+    max-width: 200px;
+}
+
+.employee-grid img {
+    width: 100%;
+    border-radius: 50%;
+    height: auto;
+}
+
+.employee-grid figcaption {
+    margin-top: 0.5rem;
+    font-weight: 600;
+    color: #FC9E4F; /* Bright Orange */
+}
+
+/* Contact Form Styling */
+.contact-form {
+    background-color: #FFFFFF;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.contact-form label {
+    font-weight: bold;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #020122; /* Dark Blue */
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.contact-form .radio-group {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.contact-form input[type="radio"] {
+    margin-right: 10px;
+}
+
+.contact-form button {
+    background-color: #FC9E4F; /* Bright Orange */
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #FF521B; /* Coral Orange */
+}
+
+
 /* rafting.css */
 :root {
     --light-yellow: #F2F3AE;
