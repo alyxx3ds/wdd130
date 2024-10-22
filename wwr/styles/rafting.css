@@ -225,3 +225,107 @@ footer nav img {
     width: 30px;
     height: 30px;
 }
+
+/* Hero Section */
+.hero {
+    position: relative;
+    text-align: center;
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
+}
+
+.hero h1 {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: var(--bright-orange);
+    font-size: 3rem;
+    background: rgba(255, 255, 255, 0.7);
+    padding: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Quote Section */
+.quote {
+    text-align: center;
+    padding: 2rem;
+    font-style: italic;
+    background-color: var(--light-yellow);
+}
+
+.quote blockquote {
+    font-size: 1.5rem;
+    color: var(--dark-blue);
+}
+
+/* Newsletter Section */
+.newsletter {
+    text-align: center;
+    padding: 2rem;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    margin: 2rem 0;
+}
+
+.newsletter form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.newsletter input[type="text"],
+.newsletter input[type="email"],
+.newsletter button {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+/* Trips Page Styling */
+.trips {
+    display: grid;
+    gap: 20px;
+    padding: 2rem 0;
+    text-align: center;
+}
+
+.trip-card {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: var(--mustard-yellow);
+    padding: 1rem;
+    transition: transform 0.3s;
+}
+
+.trip-card:hover {
+    transform: scale(1.05);
+}
+
+.trip-card img {
+    width: 100%;
+    height: auto;
+}
+
+.trip-card h2 {
+    font-size: 1.8rem;
+    color: var(--bright-orange);
+}
+
+.trip-card button {
+    background-color: var(--coral-orange);
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.trip-card button:hover {
+    background-color: var(--bright-orange);
+}
